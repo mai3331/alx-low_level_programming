@@ -5,12 +5,13 @@
  * @c: int to be checked
  * Return: 1 if c is a digit, 0 otherwise
  */
-int _isdigit(int c){
-if ( c >= "1" && c <= "9" )
+int _isdigit(int c)
+{
+if (c >= "1" && c <= "9")
 {
 return (1);
 }
-else 
+else
 {
 return (0);
 }
